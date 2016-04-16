@@ -1,4 +1,5 @@
 # Animated Minnesota population pyramids
+by David H. Montgomery
 <p>Data and R code used to create animated population pyramds for each Minnesota county based on projections through 2045, to accompany <a href="http://blogs.twincities.com/politics/2015/08/09/visualized-minnesotas-greying-future/">this story</a>.</p>
 <p>Projections created by the Minnesota State Demographic Center. Original data available <a href="http://mn.gov/admin/demography/data-by-topic/population-data/our-projections/index.jsp">here</a>.</p>
 <p>The code animated-pop-pyramids-mn.R requires <a href="http://www.imagemagick.org/script/index.php">ImageMagick</a> installed to create animated GIFs. On my Macintosh, the R app was unable to call the ImageMagick code, so I had to run the code in the Terminal to successfully create the GIFs.</p>
