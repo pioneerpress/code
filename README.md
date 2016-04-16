@@ -1,5 +1,4 @@
-# code
-Code &amp; supporting data behind Pioneer Press stories and interactives.
+# Code &amp; supporting data behind Pioneer Press stories and interactives
 
 All code and data here should be publicly available soon but for now should be considered copyrighted by the Pioneer Press, all rights reserved, while we establish a license to rerelease it under.
 
