@@ -1,13 +1,15 @@
 # Syrian ancestry map
+by David H. Montgomery
+
 Automatically create choropleth maps showing the prevalence of people of Syrian ancestry in the United States using R. Based off of the 2014 release of the American Community Survey's 5-year estimates, from [code by Ari Lamstein](http://www.arilamstein.com/blog/2015/11/16/search-census-data-r/). See below for ways to customize the code to produce different types of maps or map different Census data.
 
 When run in full, code will create three maps: 
-- [syrian_norm.jpg](https://raw.githubusercontent.com/dhmontgomery/syrian-map/master/Maps/syrian_norm.jpg) maps the absolute number of people of Syrian descent living in each US county:
-![Syrians in US counties](https://raw.githubusercontent.com/dhmontgomery/syrian-map/master/Small%20Maps/syrian_norm_sm.jpg)
-- [syrian_pc.jpg](https://raw.githubusercontent.com/dhmontgomery/syrian-map/master/Maps/syrian_pc.jpg) maps the people of Syrian ancestry in each US county per 100,000 residents:
-![Syrians per 100,000 people in US counties](https://raw.githubusercontent.com/dhmontgomery/syrian-map/master/Small%20Maps/syrian_pc_sm.jpg)
-- [syrian_log.jpg](https://raw.githubusercontent.com/dhmontgomery/syrian-map/master/Maps/syrian_log.jpg) maps the absolute number of Syrians in each county, but on a logarithmic scale:
-![Syrians in US counties, log scale](https://raw.githubusercontent.com/dhmontgomery/syrian-map/master/Small%20Maps/syrian_log_sm.jpg)
+- [syrian_norm.jpg](https://raw.githubusercontent.com/pioneerpress/code/master/syrian-map/Maps/syrian_norm.jpg) maps the absolute number of people of Syrian descent living in each US county:
+![Syrians in US counties](https://raw.githubusercontent.com/pioneerpress/code/master/syrian-map/Small%20Maps/syrian_norm_sm.jpg)
+- [syrian_pc.jpg](https://raw.githubusercontent.com/pioneerpress/code/master/syrian-map/Maps/syrian_pc.jpg) maps the people of Syrian ancestry in each US county per 100,000 residents:
+![Syrians per 100,000 people in US counties](https://raw.githubusercontent.com/pioneerpress/code/master/syrian-map/Small%20Maps/syrian_pc_sm.jpg)
+- [syrian_log.jpg](https://raw.githubusercontent.com/pioneerpress/code/master/syrian-map/Maps/syrian_log.jpg) maps the absolute number of Syrians in each county, but on a logarithmic scale:
+![Syrians in US counties, log scale](https://raw.githubusercontent.com/pioneerpress/code/master/syrian-map/Small%20Maps/syrian_log_sm.jpg)
 
 This code can be freely customized. A few possible changes:
 - To change the size of the outputted images, change the "width=1000,height=600" portions of each of the three county_choropleth() functions to your preferred pixel height. You'll want to preserve that approximate aspect ratio, though, for best appearance.
