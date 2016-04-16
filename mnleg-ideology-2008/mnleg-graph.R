@@ -1,13 +1,15 @@
 ## Creates graphs showing the estimated liberal-conservative ideology of members of the 2008 Minnesota Legislature, the most recent such legislature for which data is available. Data comes from Boris Shor and Nolan McCarty's "Individual State Legislator Shor-McCarty Ideology Data, June 2015 update," http://dx.doi.org/10.7910/DVN/THDBRA. Code by David H. Montgomery of the Pioneer Press.
 
-mnshor <- read.csv("~/file/path/here/08mnleg.csv") ## Load the data. IMPORTANT: Substitute the actual path to the data on your computer.
+## Before beginning make sure your working directory is set to the folder containing 08mnleg.csv or this code will not function.
+
+mnshor <- read.csv("08mnleg.csv") ## Load the data.
 
 ## Plot the base graph.
 png("08mnleg.png",width=1500,height=1500,res=200) ## Create a PNG file to draw the graph on. Change the file name to your preference. Adjust parameters as desired, but keep the width and height equal. If changing file dimensions, adjust the res parameter to taste — may take trial and error.
 par(mar=c(1.1,4.1,3.1,2.1)) ## Set margins
 plot(mnshor$Score, pch=19, xlab="",xaxt="n", ylab="", cex=0.4, ylim=c(-2,2)) ## Plot the basic data on a scale from -2 to +2.
 mnsen <- subset(mnshor, Chamber == "senate") ## Create a subset of the data with just senators.
-points(rownames(mnsen),mnsen$Score, col="grey", pch=19, cex=0.4) ## Plot senators in grey. Change the color if you want, but be sure to change the legend below on line 37 if you do.
+points(rownames(mnsen),mnsen$Score, col="grey", pch=19, cex=0.4) ## Plot senators in grey. Change the color if you want, but be sure to change the legend below on line 39 if you do.
 
 ## Add and label lines
 abline(h=0, lty=5) ## Draw a dashed line across the middle of the chart.
@@ -34,7 +36,7 @@ mtext("Pioneer Press graphic by David H. Montgomery", side=1, line=0, cex=.6,adj
 mtext("More conservative", side=2, line=3,adj=1) ## Label the top of the y-axis.
 mtext("More liberal", side=2, line=3,adj=0) ## And the bottom of the y-axis.
 points(0,2,pch=19) ## Add a black dot for the legend.
-points(0,1.9,pch=19, col="grey") ## Add a grey dot for the legend. Change the color if you altered this above in line 10.
+points(0,1.9,pch=19, col="grey") ## Add a grey dot for the legend. Change the color if you altered this above in line 12.
 text(0,2, "Representatives", pos=4, cex=.8) ## Label the black dot.
 text(0,1.9, "Senators", pos=4, cex=.8) ## Label the grey dot.
 dev.off() ## Finish up and create the file.
