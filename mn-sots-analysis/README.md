@@ -1,4 +1,5 @@
 # Minnesota State of the State address analysis
+by David H. Montgomery
 <p>Minnesota governors have given State of the State addresses since 1969. I analyzed the most unique words for each governor for <a href="http://blogs.twincities.com/politics/2015/04/10/governors-by-their-words/">this Pioneer Press article</a>.</p>
 <p>This repository contains:</p>
 <ul><li>The text of each of those speeches, as extracted from PDF documents published <a href="http://www.leg.state.mn.us/lrl/mngov/stateofstate">here</a> (the "Yearly Texts" folder).</li>
