@@ -1,0 +1,32 @@
+#All years
+cat 1969.txt 1973.txt 1974.txt 1976.txt 1977.txt 1980.txt 1981.txt 1982.txt 1983.txt 1984.txt 1985.txt 1987.txt 1988.txt 1989.txt 1990.txt 1991.txt 1992.txt 1993.txt 1994.txt 1995.txt 1996.txt 1997.txt 1998.txt 1999.txt 2001.txt 2002.txt 2003.txt 2004.txt 2005.txt 2006.txt 2007.txt 2008.txt 2009.txt 2010.txt 2011.txt 2012.txt 2013.txt 2014.txt 2015.txt > all-years.txt
+
+#DFL 
+cat 1973.txt 1974.txt 1976.txt 1977.txt 1983.txt 1984.txt 1985.txt 1987.txt 1988.txt 1989.txt 1990.txt 2011.txt 2012.txt 2013.txt 2014.txt 2015.txt > dfl.txt
+
+#GOP 
+cat 1969.txt 1980.txt 1981.txt 1982.txt 1991.txt 1992.txt 1993.txt 1994.txt 1995.txt 1996.txt 1997.txt 1998.txt 2003.txt 2004.txt 2005.txt 2006.txt 2007.txt 2008.txt 2009.txt 2010.txt > gop.txt
+
+#Al Quie 
+cat 1980.txt 1981.txt 1982.txt > quie.txt
+
+#Arne Carlson 
+cat 1991.txt 1992.txt 1993.txt 1994.txt 1995.txt 1996.txt 1997.txt 1998.txt > carlson.txt
+
+#Harold LeVander 
+cat 1969.txt > levander.txt
+
+#Jesse Ventura 
+cat 1999.txt 2001.txt 2002.txt > ventura.txt
+
+#Mark Dayton 
+cat 2011.txt 2012.txt 2013.txt 2014.txt 2015.txt > dayton.txt
+
+#Rudy Perpich 
+cat 1977.txt 1983.txt 1984.txt 1985.txt 1987.txt 1988.txt 1989.txt 1990.txt > perpich.txt
+
+#Tim Pawlenty 
+cat 2003.txt 2004.txt 2005.txt 2006.txt 2007.txt 2008.txt 2009.txt 2010.txt > pawlenty.txt
+
+#Wendell Anderson 
+cat 1973.txt 1974.txt 1976.txt > anderson.txt
