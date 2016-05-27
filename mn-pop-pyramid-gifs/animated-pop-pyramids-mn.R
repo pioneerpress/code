@@ -1,5 +1,6 @@
-setwd("~/Dropbox/Sharing Folder/Spreadsheets/Age Projections") ## Set my working directory. Change this to yours.
+setwd("mn-pop-pyramid-gifs") ## Set the working directory to the population pyramid GIFs folder acquired by downloading this code. Will only function if this folder is in your current working directory. Otherwise substitute your own code.
 ## Note that this code will put 79 GIF files in your working directory, so maybe don't do it in a general Documents folder.
+## Also it will delete any PNG files in the folder, so double-definitely give it its own directory.
 library(plotrix) ## Activate the Plotrix package, the only outside package — aside from ImageMagick — required for this to function.
 age <- read.csv("mn-age-projections.csv") ## Load the CSV containing all the data.
 
