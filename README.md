@@ -6,6 +6,7 @@ Feel free to [contact us](mailto:datacenter@pioneerpress.com) with any questions
 
 Date | Project | Github Folder
 ---|---------|-------------
+July 8, 2016 | Racial disparities graphs | `disparities`
 April 16, 2016 | 2008 Minnesota Legislature ideology graphs | `mnleg-ideology-2008`
 Nov. 16, 2015 | Syrian ancestry map | `syrian-map`
 Aug. 9, 2015 | [Animated Minnesota population pyramids](http://blogs.twincities.com/politics/2015/08/09/visualized-minnesotas-greying-future/) | `mn-pop-pyramid-gifs`
