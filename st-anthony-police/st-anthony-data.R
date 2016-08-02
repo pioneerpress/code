@@ -8,7 +8,9 @@ library(xlsx)
 library(plyr)
 library(utils)
 
-unzip("stanthony.zip", exdir = "data") # Extract the ZIP into a Data folder.
+if(!file.exists("data")) {
+    unzip("stanthony.zip", exdir = "data") # Extract the ZIP into a Data folder.
+}
 setwd("data")
 
 temp <- list.files(pattern = "*.xls") # Store a list of the file names.
@@ -55,8 +57,10 @@ allstats[is.na(allstats)] <- "Not available" #Replace every entry that's NA with
 
 # Move up one directory.
 setwd("..")
-# Write to a CSV file.
-write.csv(allstats,"st-anthony-stats.csv")
+# Write to a CSV file if it doesn't already exist.
+if(!file.exists("st-anthony-stats.csv")) {
+    write.csv(allstats,"st-anthony-stats.csv")
+}
 
 # Summarize the stats by race.
 sums_race <- count(allstats, c("Race","Involvement.Type","year"))
@@ -84,5 +88,12 @@ for (i in 1:nrow(sums_race)) {
 	sums_race$disposition_by_race[i] <- sums_race[i,4] / subset(sums_year, year == sums_race[i,3] & Race == sums_race[i,1])[,3]
 }
 
-write.csv(sums_race, "summary-stats.csv")
-write.csv(spread(sums_race[,1:4],year,freq), "summary-stats-readable.csv")
+# Write to a CSV file if it doesn't already exist.
+if(!file.exists("summary-stats.csv")) {
+    write.csv(sums_race, "summary-stats.csv")
+}
+
+# Write to a CSV file if it doesn't already exist.
+if(!file.exists("summary-stats-readable.csv")) {
+    write.csv(spread(sums_race[,1:4],year,freq), "summary-stats-readable.csv")
+}
