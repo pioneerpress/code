@@ -1,0 +1,88 @@
+ID,County,Precincts,FIPS
+1,Aitkin,54,27001
+2,Anoka,127,27003
+3,Becker,48,27005
+4,Beltrami,62,27007
+5,Benton,27,27009
+6,Big Stone,23,27011
+7,Blue Earth,54,27013
+8,Brown,32,27015
+9,Carlton,39,27017
+10,Carver,34,27019
+11,Cass,73,27021
+12,Chippewa,24,27023
+13,Chisago,23,27025
+14,Clay,57,27027
+15,Clearwater,29,27029
+16,Cook,13,27031
+17,Cottonwood,29,27033
+18,Crow Wing,64,27035
+19,Dakota,140,27037
+20,Dodge,22,27039
+21,Douglas,37,27041
+22,Faribault,33,27043
+23,Fillmore,37,27045
+24,Freeborn,40,27047
+25,Goodhue,40,27049
+26,Grant,23,27051
+27,Hennepin,414,27053
+28,Houston,27,27055
+29,Hubbard,38,27057
+30,Isanti,18,27059
+31,Itasca,78,27061
+32,Jackson,28,27063
+33,Kanabec,20,27065
+34,Kandiyohi,48,27067
+35,Kittson,39,27069
+36,Koochiching,22,27071
+37,Lac Qui Parle,29,27073
+38,Lake,19,27075
+39,Lake Of The Woods,17,27077
+40,Le Sueur,27,27079
+41,Lincoln,20,27081
+42,Lyon,33,27083
+43,Mcleod,28,27085
+44,Mahnomen,19,27087
+45,Marshall,61,27089
+46,Martin,37,27091
+47,Meeker,30,27093
+48,Mille Lacs,25,27095
+49,Morrison,48,27097
+50,Mower,39,27099
+51,Murray,29,27101
+52,Nicollet,28,27103
+53,Nobles,40,27105
+54,Norman,33,27107
+55,Olmsted,84,27109
+56,Otter Tail,91,27111
+57,Pennington,31,27113
+58,Pine,48,27115
+59,Pipestone,22,27117
+60,Polk,82,27119
+61,Pope,31,27121
+62,Ramsey,171,27123
+63,Red Lake,21,27125
+64,Redwood,43,27127
+65,Renville,38,27129
+66,Rice,31,27131
+67,Rock,24,27133
+68,Roseau,44,27135
+69,St. Louis,177,27137
+70,Scott,46,27139
+71,Sherburne,35,27141
+72,Sibley,25,27143
+73,Stearns,99,27145
+74,Steele,26,27147
+75,Stevens,26,27149
+76,Swift,30,27151
+77,Todd,40,27153
+78,Traverse,20,27155
+79,Wabasha,33,27157
+80,Wadena,25,27159
+81,Waseca,22,27161
+82,Washington,88,27163
+83,Watonwan,21,27165
+84,Wilkin,32,27167
+85,Winona,49,27169
+86,Wright,43,27171
+87,Yellow Medicine,30,27173
