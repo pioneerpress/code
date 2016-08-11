@@ -6,6 +6,8 @@ Feel free to [contact us](mailto:datacenter@pioneerpress.com) with any questions
 
 Date | Project | Github Folder
 ---|---------|-------------
+Aug. 9, 2016 | Primary election data scraper | `sos-scraper`
+July 13, 2016 | [St. Anthony Police Department data](http://www.twincities.com/2016/07/13/st-anthony-police-data-shows-disproportionate-arrests-of-blacks/) | `st-anthony-police`
 July 8, 2016 | [Racial disparities graphs](http://www.twincities.com/2016/07/08/data-dive-racial-disparities-in-minnesota-traffic-stops/) | `disparities`
 April 16, 2016 | 2008 Minnesota Legislature ideology graphs | `mnleg-ideology-2008`
 Nov. 16, 2015 | Syrian ancestry map | `syrian-map`
