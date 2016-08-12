@@ -29,3 +29,5 @@ The poll showed Hillary Clinton with 50% of the vote and Donald Trump with 44% o
 There is a 95.5% chance Hillary Clinton is winning based on this poll.
 There is a 4.5% chance Donald Trump is winning based on this poll.
 ```
+
+This code, and all code published on the Pioneer Press Github, is made available under the [MIT License](http://opensource.org/licenses/MIT).
