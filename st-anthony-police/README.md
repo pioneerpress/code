@@ -10,3 +10,5 @@ Contains:
 - `stanthony-stops.png`: The output of `st-anthony-viz.R`.
 
 ![St. Anthony disparities](https://raw.githubusercontent.com/pioneerpress/code/master/st-anthony-police/stanthony-stops.png)
+
+This code, and all code published on the Pioneer Press Github, is made available under the [MIT License](http://opensource.org/licenses/MIT).
