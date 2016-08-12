@@ -11,8 +11,9 @@
 ##There is a 86.55% chance Barack Obama is winning based on this poll.
 ##There is a 13.45% chance John McCain is winning based on this poll.
 # Script written by David Montgomery for the Pioneer Press.
+# Based on "How to read polls" by Dan Vanderkam: http://www.danvk.org/wp/2008-09-25/how-to-read-polls/
 
-winnerodds <- function(samplesize,cand1,cand2,cand1.pct, cand2.pct) {
+winnerodds <- function(samplesize,cand1 = "Candidate 1",cand2 = "Candidate 2",cand1.pct, cand2.pct) {
     odds <- pbeta(.5,samplesize*cand1.pct,samplesize*cand2.pct)
     inv.odds <- 1-odds
             cat(
