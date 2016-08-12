@@ -9,3 +9,5 @@ Based on a <a href="http://www.crimeandjustice.org/researchReports/Racial%20Prof
 One of the six graphs: 
 
 ![Police searches](https://raw.githubusercontent.com/pioneerpress/code/master/disparities/searches.png)
+
+This code, and all code published on the Pioneer Press Github, is made available under the [MIT License](http://opensource.org/licenses/MIT).
