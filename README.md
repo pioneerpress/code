@@ -1,6 +1,6 @@
 # Code &amp; supporting data behind Pioneer Press stories and interactives
 
-All code and data here should be publicly available soon but for now should be considered copyrighted by the Pioneer Press, all rights reserved, while we establish a license to rerelease it under.
+Data here is available under the [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/) and the code is available under the [MIT License](http://opensource.org/licenses/MIT).
 
 Feel free to [contact us](mailto:datacenter@pioneerpress.com) with any questions or comments.
 
