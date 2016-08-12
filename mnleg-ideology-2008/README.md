@@ -14,3 +14,5 @@ Output of the default code will be a graph highlighting the estimated ideologies
 ![08 Legislature with Paulsen, Emmer & Bonoff](https://raw.githubusercontent.com/pioneerpress/code/master/mnleg-ideology-2008/08mnleg-small.png)
 
 The code can be changed following instructions in its commenting to highlight different lawmakers, or to customize the display.
+
+This code, and all code published on the Pioneer Press Github, is made available under the [MIT License](http://opensource.org/licenses/MIT).
