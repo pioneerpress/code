@@ -15,3 +15,5 @@ I further created an <a href="https://www.google.com/fusiontables/embedviz?q=sel
 Output looks like this for each county:
 
 ![Scott County](https://raw.githubusercontent.com/pioneerpress/code/master/mn-pop-pyramid-gifs/scott.gif)
+
+This code, and all code published on the Pioneer Press Github, is made available under the [MIT License](http://opensource.org/licenses/MIT).
