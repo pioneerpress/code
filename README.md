@@ -6,6 +6,7 @@ Feel free to [contact us](mailto:datacenter@pioneerpress.com) with any questions
 
 Date | Project | Github Folder
 ---|---------|-------------
+Aug. 22, 2016 | FEC report grabber | `fecgrabber`
 Aug. 12, 2016 | Poll odds interpreter | `pollodds`
 Aug. 9, 2016 | Primary election data scraper | `sos-scraper`
 July 13, 2016 | [St. Anthony Police Department data](http://www.twincities.com/2016/07/13/st-anthony-police-data-shows-disproportionate-arrests-of-blacks/) | `st-anthony-police`
