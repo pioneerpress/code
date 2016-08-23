@@ -67,32 +67,24 @@ fecgrabber <- function(title,id) {
 	
 # Supporting function that takes data frames as formatted by fecgrabber() and extracts some interesting information from them.
 
-# The top states of origin for donations in the report.
 fecanalyzer <- function(title, raised, spent) {	
-	a <- raised %>% group_by(State) %>% summarise(Total = sum(Contrib)) %>% arrange(desc(Total))
-	a$Percent <- a$Total / sum(a$Total, na.rm=T) # Calculate each state's donations as a percent of the total donations.
+    # The top states of origin for donations in the report.      
+	a <- raised %>% group_by(State) %>% summarise(Total = sum(Contrib)) %>% arrange(desc(Total)) %>% mutate(Percent = Total / sum(Total, na.rm=T))
 
 	# The top cities of origin for donations in the report.	
-	b <- raised %>% group_by(City, State) %>% na.omit() %>% summarise(Total = sum(Contrib))
-	b <- arrange(as.data.frame(b),desc(Total)) # Do the sorting a little differently because the cities sort wasn't working the way the other calls did.
-	b$Percent <- b$Total / sum(b$Total, na.rm=T) # Calculate each city's donations as a percent of the total donations.
+	b <- raised %>% group_by(City, State) %>% na.omit() %>% summarise(Total = sum(Contrib)) %>% arrange(desc(Total)) %>% ungroup() %>% mutate (Percent = Total / sum(Total, na.rm=T))
 	
 	# The top occupations listed by donors in the report.
-	c <- raised %>% group_by(Job) %>% summarise(Total = sum(Contrib)) %>% arrange(desc(Total))
-	c$Percent <- c$Total / sum(c$Total, na.rm=T) # Calculate each job's donations as a percent of the total donations.
+	c <- raised %>% group_by(Job) %>% summarise(Total = sum(Contrib)) %>% arrange(desc(Total)) %>% mutate(Percent = Total / sum(Total, na.rm=T))
 	
 	# The top employers listed by donors in the report.
-	d <- raised %>% group_by(Employer) %>% summarise(Total = sum(Contrib)) %>% arrange(desc(Total))
-	d$Percent <- d$Total / sum(d$Total, na.rm=T) # Calculate each employer's donations as a percent of the total donations.
+	d <- raised %>% group_by(Employer) %>% summarise(Total = sum(Contrib)) %>% arrange(desc(Total)) %>% mutate(Percent = Total / sum(Total, na.rm=T))
 	
 	# The top types of expense in the report.
-	e <- spent %>% group_by(Expense) %>% summarise(Total = sum(Amount)) %>% arrange(desc(Total))
-	e$Percent <- e$Total / sum(e$Total, na.rm=T) # Calculate each expense type as a percent of the total expenses.
+	e <- spent %>% group_by(Expense) %>% summarise(Total = sum(Amount)) %>% arrange(desc(Total)) %>% mutate(Percent = Total / sum(Total, na.rm=T))
 
 	# The top recipients of expenses in the report.
-	f <- spent %>% group_by(Name) %>% summarise(Total = sum(Amount)) %>% arrange(desc(Total))
-	f$Percent <- f$Total / sum(f$Total, na.rm=T) # Calculate each expense recipient as a percent of the total expenses.
-
+	f <- spent %>% group_by(Name) %>% summarise(Total = sum(Amount)) %>% arrange(desc(Total)) %>% mutate(Percent = Total / sum(Total, na.rm=T))
 	
 	if (!dir.exists(title)) {dir.create(title)} # If it doesn't exist, create a directory named after the specified title.
 	setwd(title) # Move to the directory in question
