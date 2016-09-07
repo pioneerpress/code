@@ -4,6 +4,7 @@
 # Note that these are ideology estimates only, and running sequential trials will likely produce slightly different results. This is fine. (If trials produce dramatically different results, something is likely wrong.
 # This script can be customized for other years and states available on the OpenStates bulk data site (http://openstates.org/downloads/). HOWEVER, this will require care and trial & error. Different states code their data differently, and this script is designed for Minnesota's particular coding. Data may be missing from the legislator file for non-active legislators in other Minnesota years — this script includes manual coding to fill in information for three lawmakers who left the Minnesota House during the two-year session.
 # Code by David H. Montgomery for the Pioneer Press, subject to the MIT License.
+# Uses WNOMINATE package by Poole, Keith, Jeffrey Lewis, James Lo, and Royce Carroll. 2011, from "Scaling Roll Call Votes with wnominate in R", http://www.jstatsoft.org/v42/i14/paper.
 
 library(RCurl)
 library(dplyr)
