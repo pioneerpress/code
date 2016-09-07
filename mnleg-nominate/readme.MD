@@ -4,6 +4,8 @@ Three R scripts to produce and visualize ideology estimates for the 2015-17 Minn
 
 The code here was written by David H. Montgomery for the Pioneer Press, and is made available under the [MIT License](http://opensource.org/licenses/MIT). The data, `nominate-scores.csv`, is made available under the [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
 
+Uses the WNOMINATE package by Poole, Keith, Jeffrey Lewis, James Lo, and Royce Carroll. 2011. ["Scaling Roll Call Votes with wnominate in R"](http://www.jstatsoft.org/v42/i14/paper).
+
 - `mnleg-nominate.r` does the heavy lifting: it downloads the roll call vote data from the Sunlight Foundation's [OpenStates project](http://openstates.org/downloads/), processes it, then uses the WNOMINATE package to produce ideology estimates for each lawmaker and saves it as a CSV. This could take about 10 to 20 minutes, depending on the speed of your machine.
 - `nominate-rank.r` produces this chart, plotting the ideology estimates in rank-order:
 ![Rank graph](https://github.com/pioneerpress/code/blob/master/mnleg-nominate/mnleg-nominate.png?raw=true)
