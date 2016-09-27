@@ -6,7 +6,8 @@ Feel free to [contact us](mailto:datacenter@pioneerpress.com) with any questions
 
 Date | Project | Github Folder
 ---|---------|-------------
-Sept. 7, 2017 | Minnesota House NOMINATE | `mnleg-nominate`
+Sept. 26, 2016 | 9/26 debate wordclouds | `926-debate-wordclouds`
+Sept. 7, 2016 | Minnesota House NOMINATE | `mnleg-nominate`
 Aug. 22, 2016 | FEC report grabber | `fecgrabber`
 Aug. 12, 2016 | Poll odds interpreter | `pollodds`
 Aug. 9, 2016 | Primary election data scraper | `sos-scraper`
