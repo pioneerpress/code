@@ -9,12 +9,12 @@ Data is presented in two different formats:
 
 Here are the lookup tables currently in this folder. The table's name goes to the visual CSV page (if any), while the `R?` and `CSV?` columns link to the raw-format data.
 
-Table | R? | CSV? | Updated
--------------|---|---|---- 
-[MN cities](https://github.com/pioneerpress/code/blob/master/lookups/mncitypop.csv) | [Yes](https://raw.githubusercontent.com/pioneerpress/code/master/lookups/mncitypop.r) | [Yes](https://raw.githubusercontent.com/pioneerpress/code/master/lookups/mncitypop.csv) | 2017-02-10
-[MN counties](https://github.com/pioneerpress/code/blob/master/lookups/mncountypop.csv) | [Yes](https://raw.githubusercontent.com/pioneerpress/code/master/lookups/mncountypop.r) | [Yes](https://raw.githubusercontent.com/pioneerpress/code/master/lookups/mncountypop.csv) | 2017-02-10
-[MN voter registration by county](https://github.com/pioneerpress/code/blob/master/lookups/mnvoterreg.csv) | [Yes](https://raw.githubusercontent.com/pioneerpress/code/master/lookups/mnvoterreg.r) | [Yes](https://raw.githubusercontent.com/pioneerpress/code/master/lookups/mnvoterreg.csv)  | 2017-02-10
-[2017-18 MN Legislature](https://github.com/pioneerpress/code/blob/master/lookups/mnleg17.csv) | No | [Yes](https://raw.githubusercontent.com/pioneerpress/code/master/lookups/mnleg17.csv) | 2017-02-10
+Table | Data in table | R? | CSV? | Updated
+-------------|---------|---|---|---- 
+[MN cities](https://github.com/pioneerpress/code/blob/master/lookups/mncitypop.csv) | City, county, IDs, population | [Yes](https://raw.githubusercontent.com/pioneerpress/code/master/lookups/mncitypop.r) | [Yes](https://raw.githubusercontent.com/pioneerpress/code/master/lookups/mncitypop.csv) | 2017-02-10
+[MN counties](https://github.com/pioneerpress/code/blob/master/lookups/mncountypop.csv) | County, IDs, population | [Yes](https://raw.githubusercontent.com/pioneerpress/code/master/lookups/mncountypop.r) | [Yes](https://raw.githubusercontent.com/pioneerpress/code/master/lookups/mncountypop.csv) | 2017-02-10
+[MN voter registration by county](https://github.com/pioneerpress/code/blob/master/lookups/mnvoterreg.csv) | ID, county, registered voters | [Yes](https://raw.githubusercontent.com/pioneerpress/code/master/lookups/mnvoterreg.r) | [Yes](https://raw.githubusercontent.com/pioneerpress/code/master/lookups/mnvoterreg.csv)  | 2017-02-10
+[2017-18 MN Legislature](https://github.com/pioneerpress/code/blob/master/lookups/mnleg17.csv) | Name, district, chamber, town, term, 2016 margin | No | [Yes](https://raw.githubusercontent.com/pioneerpress/code/master/lookups/mnleg17.csv) | 2017-02-10
 
 
 The CSVs can be viewed and downloaded manually.
