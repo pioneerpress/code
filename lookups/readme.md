@@ -23,8 +23,9 @@ This will create the data frame as an object in R.
 
 Lookup tables currently in this folder (links go to raw file): 
 
-Table | R? | CSV? 
--------------|---|---
-MN cities | [Yes](https://raw.githubusercontent.com/pioneerpress/code/master/lookups/mncitypop.r) | [Yes](https://raw.githubusercontent.com/pioneerpress/code/master/lookups/mncitypop.csv)
-MN counties | [Yes](https://raw.githubusercontent.com/pioneerpress/code/master/lookups/mncountypop.r) | [Yes](https://raw.githubusercontent.com/pioneerpress/code/master/lookups/mncountypop.csv)
-MN voter registration by county | [Yes](https://raw.githubusercontent.com/pioneerpress/code/master/lookups/mnvoterreg.r) | No
+Table | R? | CSV? | Updated
+-------------|---|---|---- 
+MN cities | [Yes](https://raw.githubusercontent.com/pioneerpress/code/master/lookups/mncitypop.r) | [Yes](https://raw.githubusercontent.com/pioneerpress/code/master/lookups/mncitypop.csv) | 2017-02-10
+MN counties | [Yes](https://raw.githubusercontent.com/pioneerpress/code/master/lookups/mncountypop.r) | [Yes](https://raw.githubusercontent.com/pioneerpress/code/master/lookups/mncountypop.csv) | 2017-02-10
+MN voter registration by county | [Yes](https://raw.githubusercontent.com/pioneerpress/code/master/lookups/mnvoterreg.r) | No  | 2017-02-10
+2017-18 MN Legislature | No | [Yes](https://raw.githubusercontent.com/pioneerpress/code/master/lookups/mnleg17.csv) | 2017-02-10
