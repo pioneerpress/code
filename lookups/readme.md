@@ -21,11 +21,11 @@ To run an R script and generate a fresh data frame, simply call the `source()` p
 
 This will create the data frame as an object in R.
 
-Lookup tables currently in this folder (links go to raw file): 
+Here are the lookup tables currently in this folder. The table's name goes to the visual CSV page (if any), while the `R?` and `CSV?` columns like to the raw data.
 
 Table | R? | CSV? | Updated
 -------------|---|---|---- 
-MN cities | [Yes](https://raw.githubusercontent.com/pioneerpress/code/master/lookups/mncitypop.r) | [Yes](https://raw.githubusercontent.com/pioneerpress/code/master/lookups/mncitypop.csv) | 2017-02-10
-MN counties | [Yes](https://raw.githubusercontent.com/pioneerpress/code/master/lookups/mncountypop.r) | [Yes](https://raw.githubusercontent.com/pioneerpress/code/master/lookups/mncountypop.csv) | 2017-02-10
-MN voter registration by county | [Yes](https://raw.githubusercontent.com/pioneerpress/code/master/lookups/mnvoterreg.r) | No  | 2017-02-10
-2017-18 MN Legislature | No | [Yes](https://raw.githubusercontent.com/pioneerpress/code/master/lookups/mnleg17.csv) | 2017-02-10
+[MN cities](https://github.com/pioneerpress/code/blob/master/lookups/mncitypop.csv) | [Yes](https://raw.githubusercontent.com/pioneerpress/code/master/lookups/mncitypop.r) | [Yes](https://raw.githubusercontent.com/pioneerpress/code/master/lookups/mncitypop.csv) | 2017-02-10
+[MN counties](https://github.com/pioneerpress/code/blob/master/lookups/mncountypop.csv) | [Yes](https://raw.githubusercontent.com/pioneerpress/code/master/lookups/mncountypop.r) | [Yes](https://raw.githubusercontent.com/pioneerpress/code/master/lookups/mncountypop.csv) | 2017-02-10
+[MN voter registration by county]() | [Yes](https://raw.githubusercontent.com/pioneerpress/code/master/lookups/mnvoterreg.r) | No  | 2017-02-10
+[2017-18 MN Legislature](https://github.com/pioneerpress/code/blob/master/lookups/mnleg17.csv) | No | [Yes](https://raw.githubusercontent.com/pioneerpress/code/master/lookups/mnleg17.csv) | 2017-02-10
