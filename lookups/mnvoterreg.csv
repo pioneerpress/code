@@ -1,88 +1,88 @@
-"","County","voter.reg"
-"1","Aitkin",10090
-"2","Anoka",206600
-"3","Becker",18829
-"4","Beltrami",24213
-"5","Benton",22106
-"6","Big Stone",3090
-"7","Blue Earth",36184
-"8","Brown",15052
-"9","Carlton",20424
-"10","Carver",61884
-"11","Cass",18421
-"12","Chippewa",6858
-"13","Chisago",32855
-"14","Clay",32465
-"15","Clearwater",4605
-"16","Cook",3653
-"17","Cottonwood",6297
-"18","Crow Wing",39427
-"19","Dakota",257792
-"20","Dodge",11776
-"21","Douglas",24302
-"22","Faribault",8262
-"23","Fillmore",12221
-"24","Freeborn",17920
-"25","Goodhue",28320
-"26","Grant",3852
-"27","Hennepin",759075
-"28","Houston",12026
-"29","Hubbard",12620
-"30","Isanti",22926
-"31","Itasca",27110
-"32","Jackson",5985
-"33","Kanabec",9264
-"34","Kandiyohi",23719
-"35","Kittson",2730
-"36","Koochiching",7169
-"37","Lac Qui Parle",4226
-"38","Lake",7206
-"39","Lake of the Woods",2443
-"40","Le Sueur",16499
-"41","Lincoln",3392
-"42","Lyon",13559
-"43","McLeod",20667
-"44","Mahnomen",2483
-"45","Marshall",5306
-"46","Martin",11805
-"47","Meeker",13493
-"48","Mille Lacs",14442
-"49","Morrison",19085
-"50","Mower",20042
-"51","Murray",5085
-"52","Nicollet",19988
-"53","Nobles",9536
-"54","Norman",3615
-"55","Olmsted",90259
-"56","Otter Tail",35742
-"57","Pennington",7400
-"58","Pine",15526
-"59","Pipestone",5370
-"60","Polk",16516
-"61","Pope",6897
-"62","Ramsey",305584
-"63","Red Lake",2157
-"64","Redwood",9355
-"65","Renville",8508
-"66","Rice",35912
-"67","Rock",5244
-"68","Roseau",8543
-"69","Saint Louis",123666
-"70","Scott",82598
-"71","Sherburne",53667
-"72","Sibley",8522
-"73","Stearns",86457
-"74","Steele",21026
-"75","Stevens",5753
-"76","Swift",5567
-"77","Todd",13007
-"78","Traverse",2002
-"79","Wabasha",13277
-"80","Wadena",7539
-"81","Waseca",10580
-"82","Washington",159431
-"83","Watonwan",5866
-"84","Wilkin",3583
-"85","Winona",28825
-"86","Wright",75963
-"87","Yellow Medicine",5924
+id,county,voter.reg
+1,Aitkin,10090
+2,Anoka,206600
+3,Becker,18829
+4,Beltrami,24213
+5,Benton,22106
+6,Big Stone,3090
+7,Blue Earth,36184
+8,Brown,15052
+9,Carlton,20424
+10,Carver,61884
+11,Cass,18421
+12,Chippewa,6858
+13,Chisago,32855
+14,Clay,32465
+15,Clearwater,4605
+16,Cook,3653
+17,Cottonwood,6297
+18,Crow Wing,39427
+19,Dakota,257792
+20,Dodge,11776
+21,Douglas,24302
+22,Faribault,8262
+23,Fillmore,12221
+24,Freeborn,17920
+25,Goodhue,28320
+26,Grant,3852
+27,Hennepin,759075
+28,Houston,12026
+29,Hubbard,12620
+30,Isanti,22926
+31,Itasca,27110
+32,Jackson,5985
+33,Kanabec,9264
+34,Kandiyohi,23719
+35,Kittson,2730
+36,Koochiching,7169
+37,Lac Qui Parle,4226
+38,Lake,7206
+39,Lake of the Woods,2443
+40,Le Sueur,16499
+41,Lincoln,3392
+42,Lyon,13559
+43,McLeod,20667
+44,Mahnomen,2483
+45,Marshall,5306
+46,Martin,11805
+47,Meeker,13493
+48,Mille Lacs,14442
+49,Morrison,19085
+50,Mower,20042
+51,Murray,5085
+52,Nicollet,19988
+53,Nobles,9536
+54,Norman,3615
+55,Olmsted,90259
+56,Otter Tail,35742
+57,Pennington,7400
+58,Pine,15526
+59,Pipestone,5370
+60,Polk,16516
+61,Pope,6897
+62,Ramsey,305584
+63,Red Lake,2157
+64,Redwood,9355
+65,Renville,8508
+66,Rice,35912
+67,Rock,5244
+68,Roseau,8543
+69,Saint Louis,123666
+70,Scott,82598
+71,Sherburne,53667
+72,Sibley,8522
+73,Stearns,86457
+74,Steele,21026
+75,Stevens,5753
+76,Swift,5567
+77,Todd,13007
+78,Traverse,2002
+79,Wabasha,13277
+80,Wadena,7539
+81,Waseca,10580
+82,Washington,159431
+83,Watonwan,5866
+84,Wilkin,3583
+85,Winona,28825
+86,Wright,75963
+87,Yellow Medicine,5924
