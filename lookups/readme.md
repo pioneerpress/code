@@ -21,7 +21,7 @@ To run an R script and generate a fresh data frame, simply call the `source()` p
 
 This will create the data frame as an object in R.
 
-Here are the lookup tables currently in this folder. The table's name goes to the visual CSV page (if any), while the `R?` and `CSV?` columns like to the raw data.
+Here are the lookup tables currently in this folder. The table's name goes to the visual CSV page (if any), while the `R?` and `CSV?` columns link to the raw data.
 
 Table | R? | CSV? | Updated
 -------------|---|---|---- 
