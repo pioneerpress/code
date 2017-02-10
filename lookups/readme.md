@@ -27,5 +27,5 @@ Table | R? | CSV? | Updated
 -------------|---|---|---- 
 [MN cities](https://github.com/pioneerpress/code/blob/master/lookups/mncitypop.csv) | [Yes](https://raw.githubusercontent.com/pioneerpress/code/master/lookups/mncitypop.r) | [Yes](https://raw.githubusercontent.com/pioneerpress/code/master/lookups/mncitypop.csv) | 2017-02-10
 [MN counties](https://github.com/pioneerpress/code/blob/master/lookups/mncountypop.csv) | [Yes](https://raw.githubusercontent.com/pioneerpress/code/master/lookups/mncountypop.r) | [Yes](https://raw.githubusercontent.com/pioneerpress/code/master/lookups/mncountypop.csv) | 2017-02-10
-[MN voter registration by county]() | [Yes](https://raw.githubusercontent.com/pioneerpress/code/master/lookups/mnvoterreg.r) | No  | 2017-02-10
+[MN voter registration by county](https://github.com/pioneerpress/code/blob/master/lookups/mnvoterreg.csv) | [Yes](https://raw.githubusercontent.com/pioneerpress/code/master/lookups/mnvoterreg.r) | [Yes](https://raw.githubusercontent.com/pioneerpress/code/master/lookups/mnvoterreg.csv)  | 2017-02-10
 [2017-18 MN Legislature](https://github.com/pioneerpress/code/blob/master/lookups/mnleg17.csv) | No | [Yes](https://raw.githubusercontent.com/pioneerpress/code/master/lookups/mnleg17.csv) | 2017-02-10
