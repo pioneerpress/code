@@ -15,3 +15,4 @@ mncountypop$county <- gsub("qui ","Qui ",mncountypop$county)
 
 mncountypop <- select(mncountypop, num, code, FIPS, county, pop, households, pop.per.household)
 mncountypop <- select(mncountypop,7,2,1,3,4,5,6)
+write.csv(mncountypop, "mncountypop.csv", row.names= F)
