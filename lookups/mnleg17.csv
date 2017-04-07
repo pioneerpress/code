@@ -1,4 +1,13 @@
 lastname,firstname,fullname,chamber,party,hometown,district,term.numeral,term.ordinal,margin2016
+Johnson,Mark,Sen. Mark Johnson,Senate,R,East Grand Forks,1,1,1st,0.2291
+Utke,Paul,Sen. Paul Utke,Senate,R,Park Rapids,2,1,1st,0.1332
+Bakk,Thomas M,Sen. Thomas M Bakk,Senate,DFL,Cook,3,5,5th,0.2287
+Eken,Kent,Sen. Kent Eken,Senate,DFL,Twin Valley,4,2,2nd,0.1036
+Eichorn,Justin,Sen. Justin Eichorn,Senate,R,Grand Rapids,5,1,1st,0.0136
+Tomassoni,David J,Sen. David J Tomassoni,Senate,DFL,Chisholm,6,6,6th,0.2529
+Simonson,Erik,Sen. Erik Simonson,Senate,DFL,Duluth,7,1,1st,0.3126
+Ingebrigtsen,Bill,Sen. Bill Ingebrigtsen,Senate,R,Alexandria,8,4,4th,0.3258
+Gazelka,Paul E,Sen. Paul E Gazelka,Senate,R,Nisswa,9,3,3rd,0.4248
 Ruud,Carrie,Sen. Carrie Ruud,Senate,R,Breezy Point,10,3,3rd,0.2875
 Lourey,Tony,Sen. Tony Lourey,Senate,DFL,Kerrick,11,4,4th,0.0906
 Westrom,Torrey,Sen. Torrey Westrom,Senate,DFL,Elbow Lake,12,2,2nd,0.3527
@@ -57,31 +66,22 @@ Cohen,Richard,Sen. Richard Cohen,Senate,DFL,St. Paul,64,10,10th,0.534
 Pappas,Sandra L,Sen. Sandra L Pappas,Senate,DFL,St. Paul,65,9,9th,0.6185
 Marty,John,Sen. John Marty,Senate,DFL,Roseville,66,10,10th,0.4898
 Hawj,Foung,Sen. Foung Hawj,Senate,DFL,St. Paul,67,2,2nd,0.5056
-Johnson,Mark,Sen. Mark Johnson,Senate,R,East Grand Forks,1,1,1st,0.2291
 Fabian,Dan,Rep. Dan Fabian,House,R,Roseau,01A,4,4th,0.4865
 Kiel,Debra,Rep. Debra Kiel,House,R,Crookston,01B,4,4th,0.296
-Utke,Paul,Sen. Paul Utke,Senate,R,Park Rapids,2,1,1st,0.1332
 Grossell,Matt,Rep. Matt Grossell,House,R,Bagley,02A,1,1st,0.2819
 Green,Steve,Rep. Steve Green,House,R,Fosston,02B,3,3rd,0.2195
-Bakk,Thomas M,Sen. Thomas M Bakk,Senate,DFL,Cook,3,5,5th,0.2287
 Ecklund,Rob,Rep. Rob Ecklund,House,DFL,International,03A,2,2nd,0.2672
 Murphy,Mary,Rep. Mary Murphy,House,DFL,Hermantown,03B,21,21st,0.1925
-Eken,Kent,Sen. Kent Eken,Senate,DFL,Twin Valley,4,2,2nd,0.1036
 Lien,Ben,Rep. Ben Lien,House,DFL,Moorhead,04A,3,3rd,0.2444
 Marquart,Paul,Rep. Paul Marquart,House,DFL,Dilworth,04B,9,9th,0.0774
-Eichorn,Justin,Sen. Justin Eichorn,Senate,R,Grand Rapids,5,1,1st,0.0136
 Bliss,Matt,Rep. Matt Bliss,House,R,Pennington,05A,1,1st,0.0787
 Layman,Sandy,Rep. Sandy Layman,House,R,Cohaset,05B,1,1st,0.116
-Tomassoni,David J,Sen. David J Tomassoni,Senate,DFL,Chisholm,6,6,6th,0.2529
 Sandstede,Julie,Rep. Julie Sandstede,House,DFL,Hibbing,06A,1,1st,0.1809
 Metsa,Jason,Rep. Jason Metsa,House,DFL,Virgina,06B,3,3rd,0.2086
-Simonson,Erik,Sen. Erik Simonson,Senate,DFL,Duluth,7,1,1st,0.3126
 Schultz,Jennifer,Rep. Jennifer Schultz,House,DFL,Duluth,07A,2,2nd,0.4088
 Olson,Liz,Rep. Liz Olson,House,DFL,Duluth,07B,1,1st,0.4195
-Ingebrigtsen,Bill,Sen. Bill Ingebrigtsen,Senate,R,Alexandria,8,4,4th,0.3258
 Nornes,Bud,Rep. Bud Nornes,House,R,Fergus Falls,08A,11,11th,0.3049
 Franson,Mary,Rep. Mary Franson,House,R,Alexandria,08B,4,4th,0.2985
-Gazelka,Paul E,Sen. Paul E Gazelka,Senate,R,Nisswa,9,3,3rd,0.4248
 Poston,John,Rep. John Poston,House,R,Lake Shore,09A,1,1st,0.372
 Kresha,Ron,Rep. Ron Kresha,House,R,Little Falls,09B,3,3rd,0.4468
 Heintzeman,Josh,Rep. Josh Heintzeman,House,R,Nisswa,10A,2,2nd,0.1877
@@ -129,6 +129,7 @@ Lucero,Eric,Rep. Eric Lucero,House,R,Dayton,30B,2,2nd,0.4046
 Daudt,Kurt,Rep. Kurt Daudt,House,R,Crown,31A,4,4th,0.4086
 Bahr,Cal,Rep. Cal Bahr,House,R,East Bethel,31B,1,1st,0.33
 Johnson,Brian,Rep. Brian Johnson,House,R,Cambridge,32A,3,3rd,0.262
+Neu,Anne,Rep. Anne Neu,House,R,North Branch,32B,1,1st,0.5322
 Hertaus,Jerry,Rep. Jerry Hertaus,House,R,Greenfield,33A,3,3rd,0.3571
 Pugh,Cindy,Rep. Cindy Pugh,House,R,Chanhassen,33B,3,3rd,0.2083
 Peppin,Joyce,Rep. Joyce Peppin,House,R,Rogers,34A,7,7th,0.3194
