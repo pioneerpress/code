@@ -2,7 +2,7 @@ library(RCurl)
 library(dplyr)
 library(readxl)
 
-url <- "https://mn.gov/admin/assets/mn_county_estimates_sdc_2015_tcm36-250306.xlsx" # Set the URL
+url <- "https://www.dropbox.com/s/a27hcp4csc55ckg/Screenshot%202017-08-08%2015.07.31.png?dl=0" # Set the URL
 tmp = tempfile(fileext = ".xlsx") # Create a temporary file to store the spreadsheet
 download.file(url, destfile = tmp, mode = "wb") # Download the URL into the temporary file
 mncountypop <- read_excel(tmp)[-88,-c(6:7)] # Clean the data
