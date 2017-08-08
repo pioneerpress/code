@@ -1,4 +1,4 @@
-
+# Lookup 2016 presidential results by Minnesota legislative district
 
 A function to look up the share of the 2016 two-party presidential vote Hillary Clinton and Donald Trump received in a specified Minnesota legislative district.
 
