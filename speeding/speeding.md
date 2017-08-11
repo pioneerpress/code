@@ -41,7 +41,7 @@ ggplot(speeding %>% group_by(date = date(speeding$datetime)) %>% summarize(ticke
          y = "Speeding tickets per day") # Y-axis label
 ```
 
-![](speeding_copy_files/figure-markdown_github/plot.time.day-1.png)
+![](speeding_files/figure-markdown_github/plot.time.day-1.png)
 
 The trend is true for both male and female motorists:
 
@@ -65,7 +65,7 @@ ggplot(speeding %>% group_by(date = date(speeding$datetime), sex = violator_sex)
          y = "Tickets")
 ```
 
-![](speeding_copy_files/figure-markdown_github/plot.time-1.png)
+![](speeding_files/figure-markdown_github/plot.time-1.png)
 
 2017 already has nearly as many total speeding tickets as 2014, and the year's not even half-done.
 
@@ -86,7 +86,7 @@ ggplot(speeding %>% group_by(year = year(datetime)) %>% summarize(tickets = n())
          y = "Speeding tickets")
 ```
 
-![](speeding_copy_files/figure-markdown_github/plot.year-1.png)
+![](speeding_files/figure-markdown_github/plot.year-1.png)
 
 Summer peak
 -----------
@@ -118,7 +118,7 @@ ggplot(speeding.months, aes(yearmon, tickets, fill = month)) +
          y = "Speeding tickets issued")
 ```
 
-![](speeding_copy_files/figure-markdown_github/plot.month-1.png)
+![](speeding_files/figure-markdown_github/plot.month-1.png)
 
 ``` r
 speeding.days <- speeding %>% filter(year(datetime) != "2017") %>% group_by(day = yday(datetime)) %>% summarize(tickets = n()) %>% mutate(date = as.Date(paste("2016", day), format = "%Y %j"))
@@ -141,7 +141,7 @@ ggplot(speeding.days, aes(date, tickets)) +
          y = "Tickets")
 ```
 
-![](speeding_copy_files/figure-markdown_github/plot.yday-1.png)
+![](speeding_files/figure-markdown_github/plot.yday-1.png)
 
 You're actually more likely to get a ticket on a weekend than a weekday.
 
@@ -162,7 +162,7 @@ ggplot(speeding %>% filter(!is.na(datetime)) %>% group_by(weekday = wday(datetim
          x= "")
 ```
 
-![](speeding_copy_files/figure-markdown_github/plot.weekday-1.png)
+![](speeding_files/figure-markdown_github/plot.weekday-1.png)
 
 Despite this difference, it doesn't appear that speeding tickets are given out in different places on weekends vs. weekdays. Nor does this change in the summer vs. the rest of the year. (It's not the case, for example, that outstate tickets go up on summer weekends as metro residents head to the cabin.)
 
@@ -185,7 +185,7 @@ ggplot(speeding %>% mutate(metro = ifelse(violation_county %in% c("HENNEPIN", "R
          y = "Share of speeding tickets")
 ```
 
-![](speeding_copy_files/figure-markdown_github/metro-1.png)
+![](speeding_files/figure-markdown_github/metro-1.png)
 
 Time
 ----
@@ -213,7 +213,7 @@ ggplot(speeding %>% group_by(hour = floor(decimaltime), weekend) %>% summarize(t
          y = "Percent of tickets written")
 ```
 
-![](speeding_copy_files/figure-markdown_github/plot.hours-1.png)
+![](speeding_files/figure-markdown_github/plot.hours-1.png)
 
 Does the gender of the driver have an impact on when people are pulled over?
 
@@ -238,7 +238,7 @@ ggplot(speeding %>% filter(violator_sex != "") %>% group_by(hour = floor(decimal
          y = "Tickets written")
 ```
 
-![](speeding_copy_files/figure-markdown_github/plot.hours-gender-1.png)
+![](speeding_files/figure-markdown_github/plot.hours-gender-1.png)
 
 Doesn't seem like it.
 
@@ -271,7 +271,7 @@ ggplot(speeding %>% filter(milesover >= 0), aes(milesover)) +
          x = "Miles over the posted speed limit")
 ```
 
-![](speeding_copy_files/figure-markdown_github/hist-1.png)
+![](speeding_files/figure-markdown_github/hist-1.png)
 
 Age
 ---
@@ -302,7 +302,7 @@ ggplot(speeding %>% filter(violator_sex != "", AGE >= 10) %>% group_by(violator_
          y = "Speeding tickets")
 ```
 
-![](speeding_copy_files/figure-markdown_github/age-1.png)
+![](speeding_files/figure-markdown_github/age-1.png)
 
 So why are younger drivers ticketed more? There may be many answers, but one is simple: they drive faster.
 
@@ -326,7 +326,7 @@ ggplot(speeding %>% filter(violator_sex != "", AGE >= 10, milesover >= 0) %>% gr
          y = "Average mph over speed limit")
 ```
 
-![](speeding_copy_files/figure-markdown_github/teenspeed-1.png)
+![](speeding_files/figure-markdown_github/teenspeed-1.png)
 
 Speeding by speed limit
 -----------------------
@@ -355,7 +355,7 @@ ggplot(speeding %>% filter(posted_speed %in% c(55, 60, 65, 70), milesover >= 0),
          x = "Number of tickets")
 ```
 
-![](speeding_copy_files/figure-markdown_github/postedspeed-1.png)
+![](speeding_files/figure-markdown_github/postedspeed-1.png)
 
 The "practice freeway"
 ----------------------
@@ -383,7 +383,7 @@ ggplot(i35e, aes(actual_speed)) +
          y = "Numer of tickets")
 ```
 
-![](speeding_copy_files/figure-markdown_github/i35e-1.png)
+![](speeding_files/figure-markdown_github/i35e-1.png)
 
 That's 19.3 percent of tickets on this freeway for 10 mph over the limit or less. By contrast, remember, just 3.1 percent of statewide tickets were for 10 mph over or less. That means drivers on the 45 mph section of I-35E are more than six times likely to get a ticker for going less than 10 mph over than the state average.
 
@@ -409,7 +409,7 @@ ggplot(i94, aes(actual_speed)) +
          y = "Numer of tickets")
 ```
 
-![](speeding_copy_files/figure-markdown_github/i94-1.png)
+![](speeding_files/figure-markdown_github/i94-1.png)
 
 More than half the tickets were for less than 60 mph, a speed that would have been just 5 mph over; almost no speeding tickets are written for that amount of speeding statewide.
 
@@ -438,7 +438,7 @@ ggplot(speeding %>% group_by(violation_county) %>% summarize(tickets = n()), aes
          y = "Speeding tickets issued")
 ```
 
-![](speeding_copy_files/figure-markdown_github/county-1.png)
+![](speeding_files/figure-markdown_github/county-1.png)
 
 But if you adjust for each county's population, the seven metro counties are all at the bottom of the list. Leading the charge with nearly twice as many speeding tickets as any other county? Cook, sandwiched between Lake Superior and Canada in the far northeastern part of the state.
 
@@ -474,7 +474,7 @@ ggplot(speeding.counties, aes(fct_reorder(violation_county, tickets.percap), tic
          y = "Speeding tickets issued per resident")
 ```
 
-![](speeding_copy_files/figure-markdown_github/countypercap-1.png)
+![](speeding_files/figure-markdown_github/countypercap-1.png)
 
 Here's what that looks like on a map:
 
@@ -513,7 +513,7 @@ ggplot(mncounties.f, aes(x=long, y=lat, group=group)) +
          caption = "Pioneer Press map by David H. Montgomery")
 ```
 
-![](speeding_copy_files/figure-markdown_github/countymap-1.png)
+![](speeding_files/figure-markdown_github/countymap-1.png)
 
 Looking at Cook
 ---------------
@@ -541,7 +541,7 @@ ggplot(cook %>% group_by(year = format(datetime, "%Y"), month = format(datetime,
          y = "Speeding tickets issued")
 ```
 
-![](speeding_copy_files/figure-markdown_github/cook-1.png)
+![](speeding_files/figure-markdown_github/cook-1.png)
 
 More than hald of Cook County's tickets are issued in West Cook, the vast unorganized township that occupies the northwest and central parts of the sparsely populated county.
 
