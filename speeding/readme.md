@@ -1,6 +1,6 @@
 # Code and data for Pioneer Press speeding ticket project
 
-For the Sunday, Aug. 13, 2017 *St. Paul Pioneer Press*, reporters David Montgomery and Sophie Carson produced an analysis of Minnesota State Patrol speeding ticket data.
+For the Sunday, Aug. 13, 2017 *St. Paul Pioneer Press*, reporters [David Montgomery](http://twitter.com/dhmontgomery) and [Sophie Carson](https://twitter.com/SCarson_News) produced [an analysis of Minnesota State Patrol speeding ticket data](http://www.twincities.com/2017/08/11/we-analyzed-224915-minnesota-speeding-tickets-see-what-we-learned/).
 
 This repository contains:
 
