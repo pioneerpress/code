@@ -545,7 +545,7 @@ ggplot(cook %>% group_by(year = format(datetime, "%Y"), month = format(datetime,
 
 More than hald of Cook County's tickets are issued in West Cook, the vast unorganized township that occupies the northwest and central parts of the sparsely populated county.
 
-![West Cook](cook.png)
+![West Cook](speeding_files/figure-markdown_github/cook.png)
 
 In particular these are almost all on Minnesota Highway 61, the main highway running along Lake Superior to the Canadian border.
 
