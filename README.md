@@ -6,6 +6,7 @@ Feel free to [contact us](mailto:datacenter@pioneerpress.com) with any questions
 
 Date | Project | Github Folder
 ---|---------|-------------
+Aug. 11, 2017 | Speeding ticket analysis | `speeding`
 Aug. 8, 2017 | Presidential lookup by district | `mnleg-prez`
 Feb. 10, 2017 | Lookup tables | `lookup`
 Sept. 26, 2016 | 9/26 debate wordclouds | `926-debate-wordclouds`
