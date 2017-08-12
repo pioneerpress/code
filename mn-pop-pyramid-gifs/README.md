@@ -10,7 +10,7 @@ The code animated-pop-pyramids-mn.R requires <a href="http://www.imagemagick.org
 
 Output of this code will be 87 GIF files, one for each Minnesota county.
 
-I further created an <a href="https://www.google.com/fusiontables/embedviz?q=select+col4%3E%3E1+from+15swKBAFNN1Qw6LISvXVmnqrTgdFvF-xLcox9X1eb&viz=MAP&h=false&lat=46.26309568045278&lng=-92.5205640625&t=1&z=6&l=col4%3E%3E1&y=2&tmplt=2&hml=KML">interactive map</a> using this data through Google Fusion Tables, by uploading each GIF to a server (in this case, Dropbox) and calling that image's URL inside the info window.
+I further created an <a href="https://www.google.com/fusiontables/embedviz?q=select+col4%3E%3E1+from+15swKBAFNN1Qw6LISvXVmnqrTgdFvF-xLcox9X1eb&viz=MAP&h=false&lat=46.26309568045278&lng=-92.5205640625&t=1&z=6&l=col4%3E%3E1&y=2&tmplt=2&hml=KML">interactive map</a> using this data through Google Fusion Tables, by uploading each GIF to a server (in this case, Dropbox) and calling that image's URL inside the info window. (Update 8/12/2017: Changes at Dropbox have broken the interactive map. I'm working on a new solution.)
 
 Output looks like this for each county:
 
