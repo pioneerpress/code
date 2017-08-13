@@ -4,6 +4,7 @@ ggplot(speeding %>% filter(milesover >= 0), aes(milesover)) +
 	scale_y_continuous("Percent of speeding tickets", labels = percent, limits = c(0,0.3)) +
 	scale_x_continuous(limits = c(0,40), breaks = seq(0, 40, by = 5)) +
 	theme_minimal() +
+	theme(text = element_text(size = 20)) +
 	labs(title = "How fast are Minnesota highway speeders going?",
 		 subtitle = paste0(
 		 	strftime(min(speeding$datetime), format = "%b. %e, %Y"),
