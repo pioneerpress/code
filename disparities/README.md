@@ -1,6 +1,6 @@
 # Minnesota racial disparities graphs
 
-R code to create six graphs showing racial disparities in Minnesota traffic stops.
+R code to create [six graphs showing racial disparities in Minnesota traffic stops](http://www.twincities.com/2016/07/08/data-dive-racial-disparities-in-minnesota-traffic-stops/).
 
 Based on a <a href="http://www.crimeandjustice.org/researchReports/Racial%20Profiling%20Report-%20All%20participating%20Jurisdictions.pdf">2003 study</a> by the <a href="http://www.crimeandjustice.org">Council on Crime and Justice</a> examining 65 different Minnesota law enfocement jurisdictions.
 
