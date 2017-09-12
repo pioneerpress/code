@@ -1,6 +1,6 @@
 # Minnesota Legislature vote mapper
 
-A set of R scripts that will take a roll call vote from the Minnesota House of Representatives or the Minnesota Senate and produce a map showing how each member voted:
+A set of R scripts written by the St. Paul Pioneer Press that will take a roll call vote from the Minnesota House of Representatives or the Minnesota Senate and produce a map showing how each member voted:
 
 ![](https://raw.githubusercontent.com/pioneerpress/code/master/votemapper/2017-03-02-accepting%20Senate%20Sunday%20Sales%20bill.png)
 
