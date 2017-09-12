@@ -18,7 +18,7 @@ housevotetracker <- function(votetitle, votedescription, votedate) {
     
     
 	# Load the data
-	area <- readOGR(dsn = getwd(), layer = "Hsorted")
+	area <- readOGR(dsn = "housemap", layer = "Hsorted")
 	votes <- arrange(votes, order) # Sort the vote file to be sure
 
 	area@data <- data.frame(area@data,votes, by="DISTRICT") # Merge the vote file with the map

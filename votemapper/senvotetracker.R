@@ -16,7 +16,7 @@ senvotetracker <- function(votetitle, votedescription,votedate) {
 	votes <- as.data.frame(gs_read(gsvotes, "Senate", verbose = FALSE))
 	
 	# Load the data
-	area <- readOGR(dsn = getwd(), layer = "sorted")
+	area <- readOGR(dsn = "senatemap", layer = "sorted")
 		votes <- arrange(votes, district) # Sort the vote file to be sure
 	
 	area@data <- data.frame(area@data,votes, by="DISTRICT") # Merge the vote file with the map
