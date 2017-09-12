@@ -33,7 +33,7 @@ senvotetracker <- function(votetitle, votedescription,votedate) {
 	outstate <- c(1:33,47,55,58)
 	
 	# Start mapping
-	png(paste0(votetitle,".png"), width=1500, height=1001) ## Create the canvas
+	png(paste0(votedate, "-", votetitle,".png"), width=1500, height=1001) ## Create the canvas
 	par(pin = c(20.9,14)) # Define the size
 	par(mar = c(.5,0,4,1)) # Set the margins
 	# Plot the base map
