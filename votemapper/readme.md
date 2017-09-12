@@ -27,3 +27,5 @@ Best practices:
 - Do not edit the `Senate` or `House` tabs
 - Be as descriptive as possible given space constraints in your title and description
 - If your title or description runs off the page or overlaps other elements, shorten them
+
+This code is released [under an MIT License](https://github.com/pioneerpress/code/blob/master/LICENSE). Please review the terms before using, copying, modifying or distributing the code.
