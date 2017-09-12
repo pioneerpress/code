@@ -47,7 +47,7 @@ senvotetracker <- function(votetitle, votedescription,votedate) {
 	mtext(votedescription, cex=2, line=-1.5) # Add subtitle
 	mtext("Labels = Senate Districts", cex=1.5, line = -8) # Add label
 	mtext(paste0("Vote on ",format(as.Date(votedate), "%B %d, %Y")), cex = 1.5, font = 2, line = -6) # Add date
-	mtext("Pioneer Press graphic", cex=2, line= 0, adj=1) # Add credit
+	mtext("Graphic based on\nPioneer Press code", cex=2, line= 0, adj=1) # Add credit
 	mtext("Designed by David H. Montgomery", cex=1.2, line= -2,adj=1) # Add URL
 	
 	# Add the table
